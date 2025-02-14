@@ -6,15 +6,15 @@ function DrumMachine() {
   const [soundName, setSoundName] = useState('');
 
   const drumPads = [
-    { keyTrigger: "Q", sound: "src/assets/christmas-bell.mp3", name: "Christmas Bell" },
-    { keyTrigger: "W", sound: "src/assets/crash-cymbal.mp3", name: "Crash Cymbal" },
-    { keyTrigger: "E", sound: "src/assets/deep-impact.wav", name: "Deep Impact" },
-    { keyTrigger: "A", sound: "src/assets/dry-drum.mp3", name: "Dry Drum" },
-    { keyTrigger: "S", sound: "src/assets/heavy-drum.mp3", name: "Heavy drum" },
-    { keyTrigger: "D", sound: "src/assets/kick-2.mp3", name: "Kick 2" },
-    { keyTrigger: "Z", sound: "src/assets/kick.mp3", name: "Kick" },
-    { keyTrigger: "X", sound: "src/assets/long-ride-cymbal.mp3", name: "LR Cymbal" },
-    { keyTrigger: "C", sound: "src/assets/triangle.mp3", name: "Triangle" },
+    { keyTrigger: "Q", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Heater-1.mp3", name: "Christmas Bell" },
+    { keyTrigger: "W", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Heater-2.mp3", name: "Crash Cymbal" },
+    { keyTrigger: "E", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Heater-3.mp3", name: "Deep Impact" },
+    { keyTrigger: "A", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Heater-4_1.mp3", name: "Dry Drum" },
+    { keyTrigger: "S", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Heater-6.mp3", name: "Heavy drum" },
+    { keyTrigger: "D", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Dsc_Oh.mp3", name: "Kick 2" },
+    { keyTrigger: "Z", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Kick_n_Hat.mp3", name: "Kick" },
+    { keyTrigger: "X", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/RP4_KICK_1.mp3", name: "LR Cymbal" },
+    { keyTrigger: "C", sound: "https://cdn.freecodecamp.org/testable-projects-fcc/audio/Cev_H2.mp3", name: "Triangle" },
   ];
 
   return (
