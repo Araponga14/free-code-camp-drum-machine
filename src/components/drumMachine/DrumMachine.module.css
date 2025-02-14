@@ -1,0 +1,42 @@
+
+
+.drum-machine {
+    background: rgb(202, 238, 255);
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgb(36, 136, 182);
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgb(71, 109, 165);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(40, 76, 97);
+    border-radius: 30px;
+    color: rgb(218, 255, 241);
+    text-align: center;
+    align-content: center;
+    font-weight: 900;
+}
+
+.pads-container {
+    border: 5px solid rgb(40, 76, 97);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    place-items: center;
+    color: rgb(202, 238, 255);
+}
